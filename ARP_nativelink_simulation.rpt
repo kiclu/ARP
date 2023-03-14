@@ -7,11 +7,10 @@ Family                :  cycloneiii
 Quartus root          :  c:/programdata/altera/13.1/quartus/bin64/
 Quartus sim root      :  c:/programdata/altera/13.1/quartus/eda/sim_lib
 Simulation Tool       :  modelsim-altera
-Simulation Language   :  vhdl
-Version               :  93
+Simulation Language   :  verilog
 Simulation Mode       :  GUI
-Sim Output File       :  ARP_6_1200mv_85c_slow.vho
-Sim SDF File       :  ARP_6_1200mv_85c_vhd_slow.sdo
+Sim Output File       :  ARP_6_1200mv_85c_slow.vo
+Sim SDF File       :  ARP_6_1200mv_85c_v_slow.sdo
 Sim dir               :  simulation\modelsim
 
 =======================================================

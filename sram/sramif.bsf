@@ -1,0 +1,120 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 272 208)
+	(text "sramif" (rect 5 0 40 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 128 25 140)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "ABUS[31..0]" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "ABUS[31..0]" (rect 21 27 90 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RD" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "RD" (rect 21 43 37 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "WR" (rect 0 0 20 14)(font "Arial" (font_size 8)))
+		(text "WR" (rect 21 59 41 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "LEN[1..0]" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "LEN[1..0]" (rect 21 75 71 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 104 0)
+		(input)
+		(text "DBUS[31..0]" (rect 96 24 110 92)(font "Arial" (font_size 8))(vertical))
+		(text "DBUS[31..0]" (rect 96 8 110 76)(font "Arial" (font_size 8))(vertical))
+		(line (pt 104 0)(pt 104 16)(color 0 128 255)(line_width 3))
+	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "wren" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "wren" (rect 160 40 190 54)(font "Arial" (font_size 8)))
+		(line (pt 208 48)(pt 192 48))
+	)
+	(port
+		(pt 208 64)
+		(output)
+		(text "address[12..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "address[12..0]" (rect 120 56 202 70)(font "Arial" (font_size 8)))
+		(line (pt 208 64)(pt 192 64)(line_width 3))
+	)
+	(port
+		(pt 208 80)
+		(output)
+		(text "byteena[3..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "byteena[3..0]" (rect 128 72 202 86)(font "Arial" (font_size 8)))
+		(line (pt 208 80)(pt 192 80)(line_width 3))
+	)
+	(port
+		(pt 208 96)
+		(output)
+		(text "rden" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "rden" (rect 168 88 193 102)(font "Arial" (font_size 8)))
+		(line (pt 208 96)(pt 192 96))
+	)
+	(port
+		(pt 104 144)
+		(output)
+		(text "shft16" (rect 88 93 102 129)(font "Arial" (font_size 8))(vertical))
+		(text "shft16" (rect 96 88 110 124)(font "Arial" (font_size 8))(vertical))
+		(line (pt 104 144)(pt 104 128))
+	)
+	(port
+		(pt 120 144)
+		(output)
+		(text "shft8" (rect 72 93 86 122)(font "Arial" (font_size 8))(vertical))
+		(text "shft8" (rect 112 96 126 125)(font "Arial" (font_size 8))(vertical))
+		(line (pt 120 144)(pt 120 128))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "data[31..0]" (rect 157 24 217 38)(font "Arial" (font_size 8)))
+		(text "data[31..0]" (rect 136 24 196 38)(font "Arial" (font_size 8)))
+		(line (pt 208 32)(pt 192 32)(color 128 0 255)(line_width 3))
+	)
+	(port
+		(pt 88 144)
+		(output)
+		(text "rdd" (rect 104 93 118 111)(font "Arial" (font_size 8))(vertical))
+		(text "rdd" (rect 80 104 94 122)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 144)(pt 88 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 192 128))
+	)
+)

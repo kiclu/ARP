@@ -51,7 +51,7 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/projects/ARP/simulation/qsim/" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
@@ -337,6 +337,16 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE simulations/pc.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE simulations/regfile.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE simulations/rv32i_debug_2.vwf
 set_global_assignment -name PHYSICAL_SYNTHESIS_MAP_LOGIC_TO_MEMORY_FOR_AREA ON
+set_global_assignment -name BDF_FILE sram/sram_input_shift.bdf
+set_global_assignment -name BDF_FILE sram/sram_output_shift.bdf
+set_global_assignment -name BDF_FILE logic/mx8_4b.bdf
+set_global_assignment -name BDF_FILE misc/per_dc.bdf
+set_global_assignment -name BDF_FILE sram/sramif.bdf
+set_global_assignment -name BDF_FILE sram/byteena_0.bdf
+set_global_assignment -name BDF_FILE sram/byteena_1.bdf
+set_global_assignment -name BDF_FILE sram/byteena_2.bdf
+set_global_assignment -name BDF_FILE sram/byteena_3.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE simulations/sramif.vwf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
